@@ -249,10 +249,10 @@ metadata:
 
 test_plan:
   current_focus:
-    - "User Authentication (Register/Login)"
-    - "Job Management (CRUD Operations)" 
-    - "Job Application System"
-    - "Dashboard Statistics"
+    - "Authentication UI (Login/Register)"
+    - "Job Listing with Search and Filters" 
+    - "Dashboard with Statistics"
+    - "Job Posting Form (Employers)"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
