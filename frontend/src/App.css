@@ -103,8 +103,8 @@ body {
 
 .profile-container {
   display: flex;
-  items-center;
-  space-gap: 12px;
+  align-items: center;
+  gap: 12px;
 }
 
 .profile-avatar {
