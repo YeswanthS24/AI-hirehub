@@ -145,7 +145,6 @@ const LoginForm = () => {
       if (isLogin) {
         await login(formData.email, formData.password);
       } else {
-        const { register } = useAuth();
         await register(formData.email, formData.password, formData.name, formData.userType);
       }
     } catch (err) {
