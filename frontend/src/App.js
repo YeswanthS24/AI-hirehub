@@ -125,7 +125,7 @@ const Header = () => {
 };
 
 const LoginForm = () => {
-  const { login } = useAuth();
+  const { login, register } = useAuth();
   const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
     email: '',
